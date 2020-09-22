@@ -1,4 +1,4 @@
-###Quary for create database
+####Quary for create database
 
 create database dcoms_db;
 use dcoms_db;
@@ -13,7 +13,7 @@ create table orders(id int(20) unsigned auto_increment primary key not null, cus
 create table order_items(id int(20) unsigned auto_increment primary key not null,order_id int(20) not null, food_id int(20) not null, quantity int(20) default 1);
 
 
-###completed parts
+####completed parts
 
 Signup
 
